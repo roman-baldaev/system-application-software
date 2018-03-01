@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roman/Projects/S&Asoftware/long_stack/./src/stack/Stack.h
+
+/home/roman/Projects/S&Asoftware/long_stack/main.cpp
+iostream
+-
+string
+-
+./src/stack/Stack.h
+/home/roman/Projects/S&Asoftware/long_stack/./src/stack/Stack.h
+stdlib.h
+-
+

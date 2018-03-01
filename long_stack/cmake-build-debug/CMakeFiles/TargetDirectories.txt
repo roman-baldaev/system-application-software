@@ -1,0 +1,3 @@
+/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles/long_stack.dir

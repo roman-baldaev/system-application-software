@@ -150,6 +150,114 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/exception/Exception.o: src/exception/Exception.cpp.o
+
+.PHONY : src/exception/Exception.o
+
+# target to build an object file
+src/exception/Exception.cpp.o:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o
+.PHONY : src/exception/Exception.cpp.o
+
+src/exception/Exception.i: src/exception/Exception.cpp.i
+
+.PHONY : src/exception/Exception.i
+
+# target to preprocess a source file
+src/exception/Exception.cpp.i:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/Exception.cpp.i
+.PHONY : src/exception/Exception.cpp.i
+
+src/exception/Exception.s: src/exception/Exception.cpp.s
+
+.PHONY : src/exception/Exception.s
+
+# target to generate assembly for a file
+src/exception/Exception.cpp.s:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/Exception.cpp.s
+.PHONY : src/exception/Exception.cpp.s
+
+src/exception/emptyStackException.o: src/exception/emptyStackException.cpp.o
+
+.PHONY : src/exception/emptyStackException.o
+
+# target to build an object file
+src/exception/emptyStackException.cpp.o:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o
+.PHONY : src/exception/emptyStackException.cpp.o
+
+src/exception/emptyStackException.i: src/exception/emptyStackException.cpp.i
+
+.PHONY : src/exception/emptyStackException.i
+
+# target to preprocess a source file
+src/exception/emptyStackException.cpp.i:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.i
+.PHONY : src/exception/emptyStackException.cpp.i
+
+src/exception/emptyStackException.s: src/exception/emptyStackException.cpp.s
+
+.PHONY : src/exception/emptyStackException.s
+
+# target to generate assembly for a file
+src/exception/emptyStackException.cpp.s:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.s
+.PHONY : src/exception/emptyStackException.cpp.s
+
+src/exception/stackException.o: src/exception/stackException.cpp.o
+
+.PHONY : src/exception/stackException.o
+
+# target to build an object file
+src/exception/stackException.cpp.o:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o
+.PHONY : src/exception/stackException.cpp.o
+
+src/exception/stackException.i: src/exception/stackException.cpp.i
+
+.PHONY : src/exception/stackException.i
+
+# target to preprocess a source file
+src/exception/stackException.cpp.i:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/stackException.cpp.i
+.PHONY : src/exception/stackException.cpp.i
+
+src/exception/stackException.s: src/exception/stackException.cpp.s
+
+.PHONY : src/exception/stackException.s
+
+# target to generate assembly for a file
+src/exception/stackException.cpp.s:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/stackException.cpp.s
+.PHONY : src/exception/stackException.cpp.s
+
+src/exception/stackOverflowException.o: src/exception/stackOverflowException.cpp.o
+
+.PHONY : src/exception/stackOverflowException.o
+
+# target to build an object file
+src/exception/stackOverflowException.cpp.o:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o
+.PHONY : src/exception/stackOverflowException.cpp.o
+
+src/exception/stackOverflowException.i: src/exception/stackOverflowException.cpp.i
+
+.PHONY : src/exception/stackOverflowException.i
+
+# target to preprocess a source file
+src/exception/stackOverflowException.cpp.i:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.i
+.PHONY : src/exception/stackOverflowException.cpp.i
+
+src/exception/stackOverflowException.s: src/exception/stackOverflowException.cpp.s
+
+.PHONY : src/exception/stackOverflowException.s
+
+# target to generate assembly for a file
+src/exception/stackOverflowException.cpp.s:
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.s
+.PHONY : src/exception/stackOverflowException.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +270,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/exception/Exception.o"
+	@echo "... src/exception/Exception.i"
+	@echo "... src/exception/Exception.s"
+	@echo "... src/exception/emptyStackException.o"
+	@echo "... src/exception/emptyStackException.i"
+	@echo "... src/exception/emptyStackException.s"
+	@echo "... src/exception/stackException.o"
+	@echo "... src/exception/stackException.i"
+	@echo "... src/exception/stackException.s"
+	@echo "... src/exception/stackOverflowException.o"
+	@echo "... src/exception/stackOverflowException.i"
+	@echo "... src/exception/stackOverflowException.s"
 .PHONY : help
 
 

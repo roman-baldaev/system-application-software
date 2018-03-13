@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/long_stack.dir/main.cpp.o"
+  "CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o"
+  "CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o"
+  "CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o"
+  "CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o"
   "long_stack.pdb"
   "long_stack"
 )

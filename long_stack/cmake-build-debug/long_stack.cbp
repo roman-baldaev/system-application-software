@@ -87,6 +87,30 @@
 		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/main.cpp">
 			<Option target="long_stack"/>
 		</Unit>
+		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/exception/Exception.cpp">
+			<Option target="long_stack"/>
+		</Unit>
+		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/exception/Exception.h">
+			<Option target="long_stack"/>
+		</Unit>
+		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/exception/emptyStackException.cpp">
+			<Option target="long_stack"/>
+		</Unit>
+		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/exception/emptyStackException.h">
+			<Option target="long_stack"/>
+		</Unit>
+		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/exception/stackException.cpp">
+			<Option target="long_stack"/>
+		</Unit>
+		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/exception/stackException.h">
+			<Option target="long_stack"/>
+		</Unit>
+		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/exception/stackOverflowException.cpp">
+			<Option target="long_stack"/>
+		</Unit>
+		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/exception/stackOverflowException.h">
+			<Option target="long_stack"/>
+		</Unit>
 		<Unit filename="/home/roman/Projects/S&amp;Asoftware/long_stack/src/stack/Stack.h">
 			<Option target="long_stack"/>
 		</Unit>

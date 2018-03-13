@@ -5,21 +5,25 @@
 #ifndef LONG_STACK_STACK_H
 #define LONG_STACK_STACK_H
 
+#include "../exception/stackExceptionInclude.h"
 template <typename Type> class Stack {
 
-private:
-
-    class Node;
-    Node * _head;
-
 public:
+    class Node;
     Stack();
 
     void pushToStack(const Type &);
-    Type popFromStack();
-    int getStackDimension();
+    Type& popFromStack();
+    const int getStackDimension();
 
     ~Stack();
+private:
+
+
+    Node * _head;
+    int _dimension;
+
+
 };
 
 //
@@ -28,29 +32,36 @@ public:
 template <typename Type> class Stack<Type>::Node {
 
 private:
-    Type _value;
+    Type * _valuePointer;
     Node * _nextInQueue;
 public:
-    Node(const Type& = 0);
-    const Type getValue();
+    Node();
+    Node(const Type&);
+    Type* getValuePointer();
     void setNext(Node*);
     Node* getNext();
 };
 
 
 
-template <typename Type> Stack <Type>::Node::Node(const Type& value) {
+template <typename Type> Stack <Type>::Node::Node() {
 
-    std::cout << "Node constructor working" << std::endl;
-    _value = value;
-    std::cout << "Node constructor finish" << std::endl;
+    _valuePointer = new Type;
+    _nextInQueue = NULL;
 }
 
 
+template <typename Type> Stack <Type>::Node::Node(const Type& value) {
 
-template <typename Type> const Type Stack <Type>::Node::getValue() {
+    _valuePointer = new Type;
+    *_valuePointer = value;
+    _nextInQueue = NULL;
+}
 
-    return _value;
+
+template <typename Type> Type * Stack <Type>::Node::getValuePointer() {
+
+    return _valuePointer;
 }
 
 
@@ -66,13 +77,18 @@ template <typename Type> typename Stack<Type>::Node * Stack <Type>::Node::getNex
 }
 
 //
+//
+//
 //class Stack
+//
+//
 //
 
 template <typename Type> Stack <Type>::Stack() {
 
     std::cout << "Default working" << std::endl;
     Node * _head = new Node;
+    _dimension = 0;
     std::cout << "After default" << std::endl;
 }
 
@@ -98,41 +114,61 @@ template <typename Type> Stack <Type>::Stack() {
 //}
 
 
-template <typename Type> void Stack <Type>::pushToStack(const Type & objectForPush) {
-
-    Node * newHead = new Node(objectForPush);
+template <typename Type> void Stack <Type>::pushToStack(const Type & objectForPush) { //константная ссылка поддерживает правосторонние значения
+    Node *newHead = (Node *)malloc(sizeof(objectForPush));
+    if (newHead == NULL) {
+        throw stackOverflow();
+    }
+    newHead = new Node(objectForPush);
     newHead->setNext(_head);
     _head = newHead;
+    _dimension++;
+
 }
 
 
-template <typename Type> Type Stack <Type>::popFromStack() {
-    std::cout << "Pop working" << std::endl;
-    if (_head) {
-        Type value = _head->getValue();
-        Node * oldHead = _head;
-        _head = _head->getNext();
-        delete oldHead;
+template <typename Type> Type& Stack <Type>::popFromStack() {
 
-        return value;
+    if (!_head) {
+        throw emptyStackException();
     }
+    Type* value = _head->getValuePointer();
+    Node *oldHead = _head;
+    _head = _head->getNext();
+    delete oldHead;
+    _dimension--;
 
-    else {
-        std::cout << "STACK IS EMPTY" << std::endl;
-    }
+    return *value;
 }
+
+
+template <typename Type> const int Stack<Type>::getStackDimension() {
+
+    return _dimension;
+}
+
 template <typename Type> Stack <Type>::~Stack() {
 
     std::cout << "Destructor Working" << std::endl;
-    while(_head) {
+    while(_head != NULL) {
+        std::cout << "Deleting Node" << std::endl;
         Node * oldHead = _head;
         _head = _head->getNext();
         delete oldHead;
     }
-//    std::cout<< (int)this << std::endl;
-//    while (_nextInQueue) {
-//
-//
-//    }
+
 }
 #endif //LONG_STACK_STACK_H
+
+
+class Test {
+private:
+    char * _str;
+public:
+    Test() {
+        _str = NULL;
+    }
+    Test(Test & str) {
+        std::cout << "Copy constructor working" << std::endl;
+    }
+};

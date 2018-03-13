@@ -81,17 +81,121 @@ CMakeFiles/long_stack.dir/main.cpp.o.provides: CMakeFiles/long_stack.dir/main.cp
 CMakeFiles/long_stack.dir/main.cpp.o.provides.build: CMakeFiles/long_stack.dir/main.cpp.o
 
 
+CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o: CMakeFiles/long_stack.dir/flags.make
+CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o: ../src/exception/Exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o -c "/home/roman/Projects/S&Asoftware/long_stack/src/exception/Exception.cpp"
+
+CMakeFiles/long_stack.dir/src/exception/Exception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/long_stack.dir/src/exception/Exception.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/roman/Projects/S&Asoftware/long_stack/src/exception/Exception.cpp" > CMakeFiles/long_stack.dir/src/exception/Exception.cpp.i
+
+CMakeFiles/long_stack.dir/src/exception/Exception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/long_stack.dir/src/exception/Exception.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/roman/Projects/S&Asoftware/long_stack/src/exception/Exception.cpp" -o CMakeFiles/long_stack.dir/src/exception/Exception.cpp.s
+
+CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o.requires:
+
+.PHONY : CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o.requires
+
+CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o.provides: CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o.requires
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o.provides.build
+.PHONY : CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o.provides
+
+CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o.provides.build: CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o
+
+
+CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o: CMakeFiles/long_stack.dir/flags.make
+CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o: ../src/exception/stackException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o -c "/home/roman/Projects/S&Asoftware/long_stack/src/exception/stackException.cpp"
+
+CMakeFiles/long_stack.dir/src/exception/stackException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/long_stack.dir/src/exception/stackException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/roman/Projects/S&Asoftware/long_stack/src/exception/stackException.cpp" > CMakeFiles/long_stack.dir/src/exception/stackException.cpp.i
+
+CMakeFiles/long_stack.dir/src/exception/stackException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/long_stack.dir/src/exception/stackException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/roman/Projects/S&Asoftware/long_stack/src/exception/stackException.cpp" -o CMakeFiles/long_stack.dir/src/exception/stackException.cpp.s
+
+CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o.requires:
+
+.PHONY : CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o.requires
+
+CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o.provides: CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o.requires
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o.provides.build
+.PHONY : CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o.provides
+
+CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o.provides.build: CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o
+
+
+CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o: CMakeFiles/long_stack.dir/flags.make
+CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o: ../src/exception/stackOverflowException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o -c "/home/roman/Projects/S&Asoftware/long_stack/src/exception/stackOverflowException.cpp"
+
+CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/roman/Projects/S&Asoftware/long_stack/src/exception/stackOverflowException.cpp" > CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.i
+
+CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/roman/Projects/S&Asoftware/long_stack/src/exception/stackOverflowException.cpp" -o CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.s
+
+CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o.requires:
+
+.PHONY : CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o.requires
+
+CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o.provides: CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o.requires
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o.provides.build
+.PHONY : CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o.provides
+
+CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o.provides.build: CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o
+
+
+CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o: CMakeFiles/long_stack.dir/flags.make
+CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o: ../src/exception/emptyStackException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o -c "/home/roman/Projects/S&Asoftware/long_stack/src/exception/emptyStackException.cpp"
+
+CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/roman/Projects/S&Asoftware/long_stack/src/exception/emptyStackException.cpp" > CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.i
+
+CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/roman/Projects/S&Asoftware/long_stack/src/exception/emptyStackException.cpp" -o CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.s
+
+CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o.requires:
+
+.PHONY : CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o.requires
+
+CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o.provides: CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o.requires
+	$(MAKE) -f CMakeFiles/long_stack.dir/build.make CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o.provides.build
+.PHONY : CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o.provides
+
+CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o.provides.build: CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o
+
+
 # Object files for target long_stack
 long_stack_OBJECTS = \
-"CMakeFiles/long_stack.dir/main.cpp.o"
+"CMakeFiles/long_stack.dir/main.cpp.o" \
+"CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o" \
+"CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o" \
+"CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o" \
+"CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o"
 
 # External object files for target long_stack
 long_stack_EXTERNAL_OBJECTS =
 
 long_stack: CMakeFiles/long_stack.dir/main.cpp.o
+long_stack: CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o
+long_stack: CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o
+long_stack: CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o
+long_stack: CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o
 long_stack: CMakeFiles/long_stack.dir/build.make
 long_stack: CMakeFiles/long_stack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable long_stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable long_stack"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/long_stack.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +204,10 @@ CMakeFiles/long_stack.dir/build: long_stack
 .PHONY : CMakeFiles/long_stack.dir/build
 
 CMakeFiles/long_stack.dir/requires: CMakeFiles/long_stack.dir/main.cpp.o.requires
+CMakeFiles/long_stack.dir/requires: CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o.requires
+CMakeFiles/long_stack.dir/requires: CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o.requires
+CMakeFiles/long_stack.dir/requires: CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o.requires
+CMakeFiles/long_stack.dir/requires: CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o.requires
 
 .PHONY : CMakeFiles/long_stack.dir/requires
 

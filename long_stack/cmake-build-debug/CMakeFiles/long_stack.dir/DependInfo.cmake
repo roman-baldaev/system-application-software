@@ -5,6 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/roman/Projects/S&Asoftware/long_stack/main.cpp" "/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles/long_stack.dir/main.cpp.o"
+  "/home/roman/Projects/S&Asoftware/long_stack/src/exception/Exception.cpp" "/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles/long_stack.dir/src/exception/Exception.cpp.o"
+  "/home/roman/Projects/S&Asoftware/long_stack/src/exception/emptyStackException.cpp" "/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles/long_stack.dir/src/exception/emptyStackException.cpp.o"
+  "/home/roman/Projects/S&Asoftware/long_stack/src/exception/stackException.cpp" "/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles/long_stack.dir/src/exception/stackException.cpp.o"
+  "/home/roman/Projects/S&Asoftware/long_stack/src/exception/stackOverflowException.cpp" "/home/roman/Projects/S&Asoftware/long_stack/cmake-build-debug/CMakeFiles/long_stack.dir/src/exception/stackOverflowException.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
